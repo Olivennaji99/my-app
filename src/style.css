@@ -42,3 +42,63 @@ body{
     text-decoration: none;
     font-size: 1.1rem;
 }
+
+
+
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 0 15px;
+        height: 3.8rem;           
+    }
+
+    .logo {
+        font-size: 1.35rem;       
+    }
+
+    .nav-links {
+        gap: 20px;                
+    }
+
+    .nav-links li {
+        margin-left: 0;           
+    }
+
+    .nav-links a {
+        font-size: 1rem;          
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .container {
+        padding: 0 12px;
+        flex-wrap: wrap;         
+        height: auto;
+        min-height: 4rem;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+        margin: 8px 0;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 8px 0;
+    }
+
+    .nav-links li {
+        margin: 6px 14px;
+    }
+
+    .nav-links a {
+        font-size: 0.98rem;
+    }
+}
